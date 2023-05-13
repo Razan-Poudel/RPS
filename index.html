@@ -1,0 +1,70 @@
+<!-- &#9734; ☆ -->
+<!-- &#9733; ★ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+  </head>
+  <link rel="stylesheet" href="index.css" />
+  <body>
+    <nav id="navbar">Rock Paper Scissor</nav>
+    <div class="container">
+      <div class="section" id="husection">
+        <div class="head">
+          <span class="name"
+            ><span class="profile"><img src="human.png" alt="YOU" /></span>
+            <span class="text">YOU</span>
+          </span>
+          <span class="score">
+            <span id="score1">&#9734;</span>
+            <span id="score2">&#9734;</span>
+            <span id="score3">&#9734;</span>
+            <span id="score4">&#9734;</span>
+            <span id="score5">&#9734;</span>
+          </span>
+        </div>
+        <div class="content">
+          <!-- <div class="maintext">Terminater has already submitted his move.</div>
+          <div class="comptext">Waiting for your move...</div> -->
+        </div>
+      </div>
+      <div class="section" id="aisection">
+        <div class="head">
+          <span class="name"
+            ><span class="profile"><img src="robot.png" alt="AI" /></span
+            ><span class="text">Terminator</span></span
+          >
+          <span class="score">
+            <span id="score1">&#9734;</span>
+            <span id="score2">&#9734;</span>
+            <span id="score3">&#9734;</span>
+            <span id="score4">&#9734;</span>
+            <span id="score5">&#9734;</span>
+          </span>
+        </div>
+        <div class="content">
+          <div class="imagesection">
+            <div class="pretext">Terminator submitted</div>
+            <div class="image"><img src="rock.png" alt="" /></div>
+            <div class="posttext">Rock</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="button" id="rock"><img src="rock.png" alt="Rock" /></div>
+      <div class="button" id="paper"><img src="paper.png" alt="Paper" /></div>
+      <div class="button" id="scissor">
+        <img src="scissor.png" alt="Scissor" />
+      </div>
+    </div>
+    <button id="leave">
+      Leave <img src="exit.png" onerror="this.style.display='none'" />
+    </button>
+    <div class="result">You Win!!</div>
+  </body>
+  <script src="index.js"></script>
+</html>
